@@ -1,89 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  
-  <title>Single-page developer portfolio</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  adamkeyes
+    <title>Single-page developer portfolio</title>
+  </head>
+  <body>
+    <div class="grid_system">
+      <header class="header">
+        <img class="profil_img" src="assets/images/image-profile.jpg" alt="">
+        <svg class="pattern">
+          <use xlink:href="assets/images/pattern-circle.svg#circle"></use>
+        </svg>
+        <h3 class="header-3">Corentin_Damas</h3>
+        <div class="socials">
+          <svg class="social-icon">
+            <use xlink:href="assets/images/icon-github.svg#github"></use>
+          </svg>
+          <svg class="social-icon">
+            <use xlink:href="assets/images/icon-linkedin.svg#linkedin"></use>
+          </svg>
+          <svg class="social-icon">
+            <use xlink:href="assets/images/icon-twitter.svg#twitter"></use>
+          </svg>
+          <svg class="social-icon">
+            <use
+              xlink:href="assets/images/icon-frontend-mentor.svg#frontend"
+            ></use>
+          </svg>
+        </div>
+      </header>
+      <main>
+        <section class="presentation">
+          <h1 class="header-1">
+            Nice to meet you! <br />
+            I'm <span class="underline">Corentin Damas.</span>
+          </h1>
+          <p class="text pesentation-text">
+            Based in Italy, I'm a front-end developer passionate about
+            building accessible web apps shaped for your needs.
+          </p>
+          <a class="btn-contact text underline" href="#">contact me</a>
 
-  Nice to meet you! I'm Adam Keyes.
+        </section>
+        <hr>
+        <section class="skills skills-grid">
+          <div class="skill">
+            <h2 class="header-2">HTML</h2>
+            <p class="text">2 Years Experience</p>
+          </div>
+          <div class="skill">
+            <h2 class="header-2">CSS</h2>
+            <p class="text">2 Years Experience</p>
+          </div>
+          <div class="skill">
+            <h2 class="header-2">JavaScript</h2>
+            <p class="text">1 Year Experience</p>
+          </div>
+          <div class="skill">
+            <h2 class="header-2">Python</h2>
+            <p class="text">1 year</p>
+          </div>
+          <div class="skill">
+            <h2 class="header-2">Photoshop</h2>
+            <p class="text">5 Years Experience</p>
+          </div>
+          <div class="skill">
+            <h2 class="header-2">Lightroom</h2>
+            <p class="text">5 Years Experience</p>
+          </div>
+        </section>
+        <section class="portfolio">
+          <div class="portfolio_head">
+            <h1 class="header-1">Projects</h1>
+            <a class="btn-contact text underline" href="#">contact me</a>
+          </div>
+          <div class="portfolio-grid">
+            <div class="project">
+              <img src="assets/images/thumbnail-project-1-large.webp" alt="" class="thumbnail-project">
+              <h3 class="header-3 u-uppercase">Design Portfolio</h3>
+              <p class="text">HTML CSS</p>
+            </div>
+            <div class="project">
+              <img src="assets/images/thumbnail-project-2-large.webp" alt="" class="thumbnail-project">
+              <h3 class="header-3 u-uppercase">E-Learning Landing Page</h3>
+              <p class="text">HTML CSS</p>
+            </div>
+            <div class="project">
+              <img src="assets/images/thumbnail-project-3-large.webp" alt="" class="thumbnail-project">
+              <h3 class="header-3 u-uppercase">Todo web app</h3>
+              <p class="text">HTML CSS JavaScript</p>
+            </div>
+            <div class="project">
+              <img src="assets/images/thumbnail-project-4-large.webp" alt="" class="thumbnail-project">
+              <h3 class="header-3 u-uppercase">Entertainment Web app</h3>
+              <p class="text">HTML CSS Javascript</p>
+            </div>
+            <div class="project">
+              <img src="assets/images/thumbnail-project-5-large.webp" alt="" class="thumbnail-project">
+              <h3 class="header-3 u-uppercase">Memory Game</h3>
+              <p class="text">HTML CSS Javascript</p>
+            </div>
+            <div class="project">
+              <img src="assets/images/thumbnail-project-6-large.webp" alt="" class="thumbnail-project">
+              <h3 class="header-3 u-uppercase">Art gallery showcase</h3>
+              <p class="text">HTML CSS Javascript</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer__contact">
+        <div class="footer__contact-msg">
+          <h2 class="header-2">Contact</h2>
+          <p class="footer-text  text">
+            I would love to hear about your project and how I could help.
+            Please fill in the form, and I’ll get back to you as soon as possible.
+          </p>
+        </div>
+        <div class="footer__contact-form">
+          <form action="#" class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Name">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Email">
+            <textarea class="form-input" name="Message" id="Message" cols="30" rows="5"  placeholder="Message"></textarea>
+            <input type="submit" class="btn-submit text underline">
+          </form>
+        </div>
+      </div>
+      <div class="footer_grid-2">
+        <hr>
+        <div class="footer__socials">
+          <h3 class="header-3">Corentin_Damas</h3>
+          <div class="socials">
+            <svg class="social-icon">
+              <use xlink:href="assets/images/icon-github.svg#github"></use>
+            </svg>
+            <svg class="social-icon">
+              <use xlink:href="assets/images/icon-linkedin.svg#linkedin"></use>
+            </svg>
+            <svg class="social-icon">
+              <use xlink:href="assets/images/icon-twitter.svg#twitter"></use>
+            </svg>
+            <svg class="social-icon">
+              <use
+                xlink:href="assets/images/icon-frontend-mentor.svg#frontend"
+              ></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-  Based in the UK, I'm a front-end developer passionate about 
-  building accessible web apps that users love.
-
-  Contact me
-
-  HTML
-  4 Years Experience
-
-  CSS
-  4 Years Experience
-
-  JavaScript
-  4 Years Experience
-
-  Accessibility
-  4 Years Experience
-
-  React
-  3 Years Experience
-
-  Sass
-  3 Years Experience
-
-  Projects
-
-  Contact me
-
-  Design portfolio
-  HTML CSS
-  View project
-  View code
-
-  E-learning landing page
-  HTML CSS
-  View project
-  View code
-
-  Todo web app
-  HTML CSS JavaScript
-  View project
-  View code
-
-  Entertainment web app
-  HTML CSS JavaScript
-  View project
-  View code
-
-  Memory Game
-  HTML CSS JavaScript
-  View project
-  View code
-
-  Art gallery showcase
-  HTML CSS JavaScript
-  View project
-  View code
-
-  Contact
-
-  I would love to hear about your project and how I could help. Please 
-  fill in the form, and I’ll get back to you as soon as possible.
-
-  Name
-  Email
-  Message
-
-  Send message
-
-  adamkeyes
-
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>
