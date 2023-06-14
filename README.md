@@ -22,8 +22,8 @@ When the user clicks the "Contact me" call-to-action in the hero or projects sec
 
 ### Solution Screenshot
 
-![](./(assets/screenshots/solution-1.jpg))
-![](./(assets/screenshots/solution-2.jpg))
+![](./assets/screenshots/solution-1.jpg)
+![](./assets/screenshots/solution-2.jpg)
 
 ### Links
 
