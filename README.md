@@ -4,7 +4,7 @@ This is a solution to the [Single-page developer portfolio challenge on Frontend
 
 ### The challenge
 
-![Design preview for the Single-page developer portfolio coding challenge](./preview.jpg)
+![Design preview for the Single-page developer portfolio coding challenge](./assets/screenshots/preview.jpg)
 
 Build out this single-page portfolio and get it looking as close to the design as possible.
 
@@ -20,13 +20,14 @@ Users should be able to:
 
 When the user clicks the "Contact me" call-to-action in the hero or projects section, the browser should scroll down to the contact form.
 
-### Screenshot
+### Solution Screenshot
 
-![](./screenshot.jpg)
+![](./(assets/screenshots/solution-1.jpg))
+![](./(assets/screenshots/solution-2.jpg))
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://corentin-damas.github.io/Single-page-developer-portfolio/
 
 
 ### Built with
